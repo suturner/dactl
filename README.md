@@ -169,4 +169,4 @@ All parts of dactl Jekyll theme are free to use and abuse under the open-source 
 
 ## TO DO
 - [ ] Inline critical `.css` in `<head>` for faster load times
-- [ ] Fix theme-switcher - sometimes it does not inject all of the colors properly on first page load and a refresh, fixes itself after switching the theme back and forth.
+- [X] Fix theme-switcher - sometimes it does not inject all of the colors properly on first page load and a refresh, fixes itself after switching the theme back and forth. (fixed via removal for this demo application)
