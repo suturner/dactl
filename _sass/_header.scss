@@ -9,11 +9,11 @@ header {
 .logo {
     font-size: 3.5rem;
     font-weight: $base-font-weight-bold;
-    color: var(--link-color);
+    color: $link-color;
 
     .logosvg {
     	  height: 2.7rem;
-        -webkit-filter: var(--invert-logo-color);
+        -webkit-filter: $invert-logo-color;
     }
 }
 
@@ -32,7 +32,7 @@ header {
 	        margin-right: 0px;
 	      }
         a {
-          color: var(--text-color-light);
+          color: $text-color-light;
     	    font-size: $base-font-size;
     	    font-weight: $base-font-weight;
     	    display: block;
@@ -58,7 +58,7 @@ header {
     }
     li a {
       display: block;
-      color: var(--text-color-light);
+      color: $text-color-light;
       text-align: center;
       font-size: 1.5rem;
       width: 2.5rem;

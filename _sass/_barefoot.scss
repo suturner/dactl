@@ -13,8 +13,8 @@
 
 .footnote-button {
   // background: rgba(110, 110, 110, .2);
-  background: var(--code-bg-color);
-  box-shadow: 0 1px 1px var(--shadow-color);
+  background: $bg-color ;
+  box-shadow: 0 1px 1px $shadow-color;
   border: 0;
   border-radius: .475em;
   cursor: pointer;
@@ -39,7 +39,7 @@
     /* numbered footnotes
     content: attr(data-fn-number); */
     // color: rgba(110, 110, 110, .5);
-    color: var(--text-color-light);
+    color: $text-color-light;
     display: block;
     font-size: 1em;
     font-weight: bold;
@@ -56,10 +56,10 @@
   }
   &:hover {
     // background: rgba(110, 110, 110, .5);
-    background: var(--table-header-color);
+    background: $table-header-color;
     outline: none;
     &:after {
-      color: var(--text-color);
+      color: $text-color;
 
       outline: none;
 		}
@@ -67,18 +67,18 @@
 
   &.is-active {
     // background: rgba(110, 110, 110, 1);
-    background: var(--table-border-color);
+    background: $table-border-color;
     transition-delay: .1s;
     &:after {
-      color: var(--text-color);
+      color: $text-color;
 		}
 	}
 }
 
 .bf-footnote {
-  background: var(--code-bg-color);
-  // border: 1px solid var(--code-border);
-  box-shadow: 0 1px 2px var(--shadow-color);
+  background: $bg-color ;
+  // border: 1px solid border;
+  box-shadow: 0 1px 2px $shadow-color;
   /*  border-radius: .25em; */
   left: 0;
   margin: $magic 0;
@@ -119,8 +119,8 @@
 
 .footnote-tooltip {
   background: inherit;
-  box-shadow: 0 1px 2px var(--shadow-color);
-  // border: 1px solid var(--code-border);
+  box-shadow: 0 1px 2px $shadow-color;
+  // border: 1px solid border;
   height: 1.3em;
   position: absolute;
   top: -.49em;

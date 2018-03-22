@@ -12,15 +12,15 @@ pre {
 code {
   padding: .25em .5em;
   font-size: .85em;
-  // Could be mistaken for a link if the user choses a similar link-color, so better no colored inline code.
+  // Could be mistaken for a link if the user choses a similar $link-color, so better no colored inline code.
   // color: $code-color;
-  background-color: var(--code-bg-color);
-  // No border radius to prevent repaint on code scroll
+  background-color: $code-bg-color ;
+  // Noradius to prevent repaint on code scroll
   // border-radius: 3px;
 }
 
 code.highlighter-rouge {
-  box-shadow: 0 1px 1px var(--shadow-color);
+  box-shadow: 0 1px 1px $shadow-color;
 }
 
 pre code {
@@ -36,7 +36,7 @@ figure, .figure {
 
   > *:first-child {
     padding: 1rem;
-    background: var(--code-bg-color);
+    background: $code-bg-color ;
   }
 
   > figcaption, > .figcaption {
@@ -63,21 +63,22 @@ figure, .figure {
   @include figure2();
 
   backface-visibility: hidden;
-  box-shadow: 0 1px 2px var(--shadow-color);
+  box-shadow: 0 1px 2px $shadow-color;
   position: relative;
-  
+  background-color: $code-bg-color;
+
   &:before {
         position: absolute;
         top: 0;
         right: 0;
         padding: 0.5em;
-        background-color: var(--code-border);
+        background-color: $code-border;
         content: "\e86f";
         font-family: "icomoon" !important;
         line-height: 1;
         text-transform: none;
         speak: none;
-        box-shadow: 0 1px 2px var(--shadow-color);
+        box-shadow: 0 1px 2px $shadow-color;
       }
 
   pre {
@@ -90,7 +91,7 @@ figure, .figure {
   .lineno {
     display: inline-block; // Ensures the null space also isn't selectable
     padding-right: .25rem;
-    color: var(--metadata-color);
+    color: $metadata-color;
     // Make sure numbers aren't selectable
     -webkit-user-select: none;
        -moz-user-select: none;
@@ -114,8 +115,8 @@ figure, .figure {
     }
 
     td.gutter {
-      background: var(--code-border);
-      box-shadow: 0 1px 2px var(--shadow-color);
+      background: $code-border;
+      box-shadow: 0 1px 2px $shadow-color;
       width: 6%;
     }
 

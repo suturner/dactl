@@ -5,7 +5,7 @@ url                          : "" # the base hostname & protocol for your site
                                   # `http://<username>.github.io` - for GitHub
 
 blog:
-  title                      : Jekyll Workshop
+  title                      : Workshop
   description                  : >
                                This website was made for a Codeland 2018 workshop on building a Jekyll site.
 
