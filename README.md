@@ -2,7 +2,15 @@
 dactl is a fast, modern and configurable [Jekyll](http://jekyllrb.com/) theme with some tricks up it's sleeve. It has a live theme switcher and it's main blog layout display prominent hero images for posts with colored overlays and nice animations.
 
 ![light theme](uploads/screenshot_desktop_light.jpg)
-![dark theme](uploads/screenshot_desktop_dark.jpg)
+<!-- ![dark theme](uploads/screenshot_desktop_dark.jpg)-->
+
+## Installation
+### Running locally
+Assuming you've got Jekyll [installed](https://jekyllrb.com/docs/installation/), clone or download this repo, `cd` to wherever you've put `dactl` folder, `bundle install` dependencies and then run `bundle exec jekyll serve`
+
+### Hosting on GitHub
+Fork this repo and rename it to `yourusername.github.io`... and that's it!  
+Your new dactl-themed Jekyll blog should be up and running at yourusername.github.io.  
 
 ## Features
 Though minimalistic-looking by nature, dactl is easily configurable and includes quite a lot of niceties:
@@ -40,13 +48,6 @@ I've built this theme as a way to develop my skills further.
 You can find credits at the bottom of this Readme file.  
 **All** feedback is welcome, both positive and negative.
 
-## Installation
-### Running locally
-Assuming you've got Jekyll [installed](https://jekyllrb.com/docs/installation/), clone or download this repo, `cd` to wherever you've put `dactl` folder and run `jekyll -s'`
-
-### Hosting on GitHub
-Fork this repo and rename it to `yourusername.github.io`... and that's it!  
-Your new dactl-themed Jekyll blog should be up and running at yourusername.github.io.  
 
 ## Usage
 ### Slight warning
