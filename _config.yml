@@ -26,17 +26,17 @@ blog:
 
 # Author info
 author:
-  fullname                  : Monica Powell
+  fullname                  : Your Name
   rss                       : true # generate RSS feed and show it's icon in header
-  mail                      : monica@aboutmonica.com # change to your e-mail address
-  twitter                   : waterproofheart
-  github                    : m0nica
-  youtube                   : # youtube-user-name
-  stackoverflow             : # stackoverflow-user-name
-  disqus                    : # dactl # your disqus site name
+  mail                      : your@email.com # change to your e-mail address
+  twitter                   : twitter-user-name
+  github                    : github-user-name
+  youtube                   : youtube-user-name
+  stackoverflow             : stackoverflow-user-name
+  disqus                    : dactl # your disqus site name
   google_analytics          : # 'UA-XXXXXXXX-X'
-  photo                     : "uploads/monicapowell.jpg"
-  photo2x                   : "uploads/monicapowell.jpg"
+  photo                     : "uploads/me2.png"
+  photo2x                   : "uploads/me.png"
 
 
 
