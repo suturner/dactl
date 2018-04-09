@@ -10,7 +10,7 @@ blog:
                                This website was made for a Codeland 2018 workshop on building a Jekyll site.
 
 # Layout configuration
-  logo_path                  : "assets/img/dactl.svg" # path to logo file
+  logo_path                  : "assets/img/code.svg" # path to logo file
   search_path                : # "yourgitusername.github.io"
                                # needed for searchbox in archive page
   hero_layout                : true # turn on hero layout for blog and posts
