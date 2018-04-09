@@ -4,7 +4,9 @@ title:  "Welcome to My Workshop!!"
 tags:
   - dactl
   - jekyll
-hero: https://source.unsplash.com/collection/430471/
+hero: /assets/img/monicapowell.jpg
+
+# https://source.unsplash.com/collection/430471/
 overlay: bubblegum
 published: true
 
