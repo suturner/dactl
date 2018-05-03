@@ -4,7 +4,7 @@ title: Post excerpts and leading paragraphs
 tags:
   - dactl
   - howto
-hero: 'https://source.unsplash.com/collection/261936/'
+hero: /assets/img/261936.jpeg
 overlay: blue
 published: true
 ---

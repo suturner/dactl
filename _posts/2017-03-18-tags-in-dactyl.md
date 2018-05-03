@@ -4,7 +4,7 @@ title: 'Tags in dactl'
 tags:
   - dactl
   - howto
-hero: https://source.unsplash.com/collection/427433/
+hero: /assets/img/427433.jpeg
 overlay: green
 ---
 
