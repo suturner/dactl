@@ -28,9 +28,9 @@ blog:
 author:
   fullname                  : Monica Powell
   rss                       : true # generate RSS feed and show it's icon in header
-  mail                      : your@email.com # change to your e-mail address
-  twitter                   : twitter-user-name
-  github                    : github-user-name
+  mail                      : monica@aboutmonica.com # change to your e-mail address
+  twitter                   : waterproofheart
+  github                    : m0nica
   youtube                   : youtube-user-name
   stackoverflow             : stackoverflow-user-name
   disqus                    : dactl # your disqus site name
