@@ -1,5 +1,14 @@
-# dactl
-dactl is a fast, modern and configurable [Jekyll](http://jekyllrb.com/) theme with some tricks up it's sleeve. It has a live theme switcher and it's main blog layout display prominent hero images for posts with colored overlays and nice animations.
+# Technical Blogging with Jekyll
+
+Today we are going to learn the basics of publishing and maintaining a blog to host your technical writing. You will create a static blog and learn how to host it for free on Github Pages. You can expect to walk away being confident modifying and customizing your blog to better fit your needs.
+
+Slides for the workshop are viewable here: http://aboutmonica.com/codeland/jekyll.pdf
+
+Installation instructions are viewable here: https://m0nica.github.io/dactl/posts/welcome
+
+--- 
+
+This workshop was built using dactl which is a fast, modern and configurable [Jekyll](http://jekyllrb.com/) theme with some tricks up it's sleeve. Its main blog layout display prominent hero images for posts with colored overlays and nice animations.
 
 ![light theme](uploads/screenshot_desktop_light.jpg)
 <!-- ![dark theme](uploads/screenshot_desktop_dark.jpg)-->
