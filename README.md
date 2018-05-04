@@ -9,8 +9,8 @@ Installation instructions are viewable here: https://m0nica.github.io/dactl/post
 --- 
 
 This workshop was built using dactl which is a fast, modern and configurable [Jekyll](http://jekyllrb.com/) theme with some tricks up it's sleeve. Its main blog layout display prominent hero images for posts with colored overlays and nice animations.
-
-![light theme](uploads/screenshot_desktop_light.jpg)
+![workshop homepage](uploads/workshop-homepage.png)
+<!-- ![light theme](uploads/screenshot_desktop_light.jpg)-->
 <!-- ![dark theme](uploads/screenshot_desktop_dark.jpg)-->
 
 ## Installation
