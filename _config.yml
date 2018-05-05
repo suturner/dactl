@@ -1,13 +1,13 @@
 # Base blog settings
 baseurl                      : "/dactl" # the subpath of your site,                         # e.g. /blog/
                               # set to '' in case of hosting on GitHub
-url                          : "https://m0nica.github.io" # the base hostname & protocol for your site
+url                          : "https://suturner.github.io" # the base hostname & protocol for your site
                                   # `http://<username>.github.io` - for GitHub
 
 blog:
-  title                      : Workshop
+  title                      : Technical Blog
   description                  : >
-                               This website was made for a Codeland 2018 workshop on building a Jekyll site.
+                               What happens when you learn how to blog
 
 # Layout configuration
   logo_path                  : "assets/img/code.svg" # path to logo file
@@ -26,11 +26,11 @@ blog:
 
 # Author info
 author:
-  fullname                  : Monica Powell
+  fullname                  : Su Turner
   rss                       : true # generate RSS feed and show it's icon in header
-  mail                      : your@email.com # change to your e-mail address
-  twitter                   : twitter-user-name
-  github                    : github-user-name
+  mail                      : webdevstunner@gmail.com
+  twitter                   : sugipson
+  github                    : suturner
   youtube                   : youtube-user-name
   stackoverflow             : stackoverflow-user-name
   disqus                    : dactl # your disqus site name
